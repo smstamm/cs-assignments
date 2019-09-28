@@ -1,0 +1,129 @@
+<html>
+	<head>
+		<title>My AWESOME Page</title>
+	</head>
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			justify-items: center;
+		}
+		p {
+			font-family: Verdana;
+		}
+		h1 {
+			font-family: Impact;
+			color: #87CEEB;
+			text-align: center;
+			margin-bottom: 0px;
+		}
+		small {
+			font-family: Verdana;
+			margin-bottom: 25px;
+			text-align: center;
+		}
+		.tableContainer {
+			display: grid;
+			grid-template-columns: 25vw auto 25vw auto 25vw;
+			grid-template-areas:
+				'dogsImg . plantsImg . meImg'
+				'dogsText . plantsText . aboutMeText'
+				'dogsLink . plantsLink . .';
+			justify-items: center;
+			grid-column-gap: 15px;
+		}
+		.dogsImg {
+			grid-area: dogsImg;
+			width: 375px;
+			height: 375px;
+			transform: rotate(90deg);
+			object-fit: cover;
+		}
+		.dogsText {
+			grid-area: dogsText
+		}
+		.dogsLink {
+			grid-area: dogsLink;
+			width: 100%;
+			text-align: center;
+		}
+		.plantsImg {
+			grid-area: plantsImg;
+			width: 375px;
+			height: 375px;
+			object-fit: cover;
+		}
+		.plantsText {
+			grid-area: plantsText;
+		}
+		.plantsLink {
+			grid-area: plantsLink;
+			width: 100%;
+			text-align: center;
+		}
+		.meImg {
+			grid-area: meImg;
+			width: 375px;
+			height: 375px;
+			object-fit: cover;
+			transform: scaleX(-1);
+		}
+		.aboutMeText {
+			grid-area: aboutMeText;
+		}
+
+		@media only screen and (max-width: 1068px) {
+			.tableContainer {
+				grid-template-columns: 100%;
+				grid-template-areas:
+					'dogsImg'
+					'dogsText'
+					'dogsLink'
+					'plantsImg'
+					'plantsText'
+					'plantsLink'
+					'meImg'
+					'aboutMeText';
+				justify-content: center;
+				grid-column-gap: 0px;
+			}
+		}
+
+	</style>
+
+	<body>
+		<h1 class='header'>Oh, hey</h1>
+		<small>A little bit about me</small>
+		<div class='tableContainer'>
+			<img class='dogsImg' src='./images/dogs.jpg' />
+			<p class='dogsText'>My favorite hiking buddies. Utley, in front, is 1.5 and loves to run. Kiya is 10 and does a pretty good job keeping up! My husband and I adopted these cuties and they've made us a family. Consider adopting your next pet.</p>
+			<p class='dogsLink'><a href='https://www.utahhumane.org/adopt' target='_blank' rel='noopener'>Adopt, Don't Shop</a></p>
+
+			<img class='plantsImg' src='./images/plants.jpg' />
+			<p class='plantsText'>Plants make great pair programming partners. Pictured here from left to right is Philodendron Brasil, Marble Queen Pothos and Philodendron Cordatum.</p>
+			<p class='plantsLink'><a href='https://www.thymeandplaceslc.com/' target='_blank' rel='noopener'>Greenify Your Space</a></p>
+
+			<img class='meImg' src='./images/me.jpg' />
+			<p class='aboutMeText'>This is me. I grew up in New Jersey but when I was 18 I went on a month-long backpacking, climbing and kayaking trip in the Rockies and became hooked on the mountains. I finally got the chance to live in them when the company I worked for in Philly moved headquarters to Utah. Now I've lived here for 10 years.</p>
+		</div>
+		<table style='text-align:center; display:none;'>
+			<tr>
+				<th>Table Header 1</th>
+				<th>Table Header 2</th>
+				<th>Table Header 3</th>
+			</tr>
+			<tr>
+				<td>Table Cell 1</td>
+				<td>Table Cell 2</td>
+				<td>Table Cell 3</td>
+			</tr>
+			<tr>
+				<td>Table Cell 4</td>
+				<td>Table Cell 5</td>
+				<td>Table Cell 6</td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+
