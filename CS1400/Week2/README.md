@@ -14,13 +14,13 @@ CS 1400 - Hilton
  Calculate the result in minutes, and print the results for the user.
  
  Sample session:
- *Please enter your destination:*
- **Kearney, Nebraska**
- *How many miles is it to Kearney, Nebraska?:
- **743**
- *What is the speed limit?*
- **80**
- *How fast do you plan on driving over the speed limit (in mph)?:*
- **5**
+ *Please enter your destination:*  
+ **Kearney, Nebraska**  
+ *How many miles is it to Kearney, Nebraska?:  
+ **743**  
+ *What is the speed limit?*  
+ **80**  
+ *How fast do you plan on driving over the speed limit (in mph)?:*  
+ **5**  
  
  *You will arrive in Kearney, Nebraska 32.77941176470591 minutes faster by driving 5.0 mph over the speed limit.*

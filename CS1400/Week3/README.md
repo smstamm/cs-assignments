@@ -6,15 +6,15 @@ Write a "Higher / Lower" game where the user tries to guess a random number betw
 
 Sample Session:
 
-*Welcome to the Higher / Lower game! Try to guess the number between 1 and 100.*
-*Enter your guess:*
-**-5**
-*Sorry, the guess needs to be a number between 1 and 100. Please try again:*
-**-10**
-*Sorry, the guess needs to be a number between 1 and 100. Please try again:*
-**50**
-*The number is higher. Enter your guess:*
-**75**
-*The number is lower. Enter your guess:*
-**63**
-*The number was 63! You guessed correctly! It took you 3 tries.*
+*Welcome to the Higher / Lower game! Try to guess the number between 1 and 100.*  
+*Enter your guess:*  
+**-5**  
+*Sorry, the guess needs to be a number between 1 and 100. Please try again:*  
+**-10**  
+*Sorry, the guess needs to be a number between 1 and 100. Please try again:*  
+**50**  
+*The number is higher. Enter your guess:*  
+**75**  
+*The number is lower. Enter your guess:*  
+**63**  
+*The number was 63! You guessed correctly! It took you 3 tries.*  

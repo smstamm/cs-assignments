@@ -16,18 +16,18 @@ For words that begin with vowels, "way" is added at the end of the word. Example
 
 Sample Session:
 
-*Welcome to the Pig Latin Translator!*
-*Please enter a word:*
-**hello**
-*The translation is:*
-**ellohay**
-*Enter another word to be translated (or press Q to quit):*
-**scratch****
-*The translation is:*
-**atchscray**
-*Enter another word to be translated (or press Q to quit):*
-**apple**
-*The translation is:*
-**appleway**
-*Enter another word to be translated (or press Q to quit):*
-**Q**
+*Welcome to the Pig Latin Translator!*  
+*Please enter a word:*  
+**hello**  
+*The translation is:*  
+**ellohay**  
+*Enter another word to be translated (or press Q to quit):*  
+**scratch****  
+*The translation is:*  
+**atchscray**  
+*Enter another word to be translated (or press Q to quit):*  
+**apple**  
+*The translation is:*  
+**appleway**  
+*Enter another word to be translated (or press Q to quit):*  
+**Q**  

@@ -11,30 +11,30 @@ The computer will choose randomly which item to play. In the event that the user
 Keep track of the number of wins each by the user and by the computer. After the game has ended, print the number of wins by the user and by the computer, and declare a winner.
 
 Sample session:
-*Welcome to Rock, Paper, Scissors!*
-*Please enter the number of rounds you would like to play:*
-**2**
-*Sorry, you need to enter an odd number. Please try again:*
-**4**
-*Sorry, you need to enter an odd number. Please try again:*
-**3**
-*Rock, Paper, or Scissors?:*
-**Monkey**
-*Sorry, "Monkey" is not a valid entry.*
-*Rock, Paper, or Scissors?:*
-**Rock**
+*Welcome to Rock, Paper, Scissors!*  
+*Please enter the number of rounds you would like to play:*  
+**2**  
+*Sorry, you need to enter an odd number. Please try again:*  
+**4**  
+*Sorry, you need to enter an odd number. Please try again:*  
+**3**  
+*Rock, Paper, or Scissors?:*  
+**Monkey**  
+*Sorry, "Monkey" is not a valid entry.*  
+*Rock, Paper, or Scissors?:*  
+**Rock**  
 Computer chooses Paper. You lose.
-*Rock, Paper, or Scissors?:*
-**Rock**
-*Computer chooses Rock. It’s a tie.*
-*Rock, Paper, or Scissors?:*
-**Paper**
-*Computer chooses Rock. You win!*
-*Rock, Paper or Scissors?:*
-**Rock**
-*Computer chooses Scissors. You win!*
-*User wins:*
-**2**
-*Computer wins:*
-**1**
-*User wins the game!*
+*Rock, Paper, or Scissors?:*  
+**Rock**  
+*Computer chooses Rock. It’s a tie.*  
+*Rock, Paper, or Scissors?:*  
+**Paper**  
+*Computer chooses Rock. You win!*  
+*Rock, Paper or Scissors?:*  
+**Rock**  
+*Computer chooses Scissors. You win!*  
+*User wins:*  
+**2**  
+*Computer wins:*  
+**1**  
+*User wins the game!*  
