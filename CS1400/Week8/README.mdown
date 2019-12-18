@@ -1,0 +1,29 @@
+# Mission 8
+
+CS 1400 - Hilton
+
+Body mass index is a measure of whether someone’s weight is appropriate for their height. A body-mass-index value between 19 and 25 is considered to be in the normal range. Here’s the formula for calculating body mass index:
+
+bmi = (704 * weightInPounds) / heightInInches<sup>2</sup>
+
+Implement a program that prompts the user for height and weight values and displays the associated body mass index.
+
+Perform input validation by making sure that the user enters positive numbers for height and weight. Use error handling to catch any invalid input. See the sample session for details.
+
+Sample session:
+*Enter height in inches:* hi
+Invalid inches value. Must be a decimal number.
+*Re-enter height in inches:* 0
+Invalid inches value. Must be positive.
+*Re-enter height in inches:* 69.25
+*Enter weight in pounds:* dog
+Invalid pounds value. Must be a decimal number.
+*Re-enter weight in pounds:* -3
+Invalid pounds value. Must be a decimal number.
+*Re-enter weight in pounds:* -20
+Invalid pounds value. Must be positive.
+*Re-enter weight in pounds:* 150.5
+
+*Height = 69.25"*
+*Weight = 150.5 pounds*
+*Body mass index = 22.1*
