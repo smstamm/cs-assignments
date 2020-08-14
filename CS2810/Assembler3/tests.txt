@@ -1,0 +1,18 @@
+FFFB9264 --> MPEG v1.0 11, Layer III 01, 44100hz
+FFFBA040 --> MPEG v1.0 11, Layer III 01, 44100hz
+FFF240C0 --> MPEG v2.0 10, Layer III 01, 22050hz
+FFF440C0 --> MPEG v2.0 10, Layer II 01, 22050hz
+FFE8A040 --> MPEG reserved 01, Reserved 00, Reserved
+ffe0a040 --> MPEG v2.5 00, Reserved 00, 11025hz
+FFE65800 --> MPEG v2.5 00, Layer I 11, 8000hz
+FFF444C0 --> MPEG v2.0 10, Layer II 01, 24000hz
+
+
+AAAAAAAAAAABBCCDEEEEFFGHIIJJKLMM
+
+
+MPEG Audio version ID
+00 - MPEG Version 2.5 (later extension of MPEG 2)
+01 - reserved
+10 - MPEG Version 2 (ISO/IEC 13818-3)
+11 - MPEG Version 1 (ISO/IEC 11172-3)
