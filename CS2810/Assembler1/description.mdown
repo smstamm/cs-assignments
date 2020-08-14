@@ -1,0 +1,44 @@
+This assignment is designed to give you a first experience in Assembler programming.
+You will be using Visual Studio 2015/2017 (your choice) and Microsoft Assembler (MASM).
+You can complete this assignment using the CS computer labs or the CS Athena remote terminal server (Links to an external site.).
+If you plan on completing this on your own computer, you will first need to download the Irvine library at (VS 2015: http://kipirvine.com/asm/gettingStartedVS2015/Irvine.zip (Links to an external site.)). For VS 2017, use this library: http://kipirvine.com/asm/gettingStartedVS2017/Irvine.zip (Links to an external site.)
+You will need to unzip into a folder at C:\Irvine. You must put it in that location. IT WILL NOT WORK OTHERWISE.
+In order for the project template to work correctly, the Irvine folder must be at C:\Irvine.
+If you're using Athena, the Irvine library has already been installed. 
+
+At the end of this assignment, upload both your assembler source: CS810-Assembler-Template.ASM and the executable file CS810-Assembler-Template.EXE (or Project.exe in the VS 2017 template). 
+(note that the .asm file is in your project folder and the .exe in the debug folder within the project)
+
+1. Download the assignment project template zip file from 2015 project template: https://weberstate.box.com/v/2810-asm-vs2015 (Links to an external site.)
+2017 project template: https://weberstate.box.com/v/2810-VS2017-template (Links to an external site.)
+2. Unzip the project folder to a location on your hard drive.
+3. Start Visual Studio and open the downloaded VS solution contained in the project folder.
+4. When the project has started, open the assembler source code file, CS2810-A1.ASM
+5. Modify the program source code to do the following:
+a) Clear the display.
+b) Display the string "CS2810 Spring Semester 2018" on row 2, column 12 of the display.
+c) Display the string "Assembler Assignment #1" on row 3, column 12 of the display.
+d) Display your name on row 4, column 12 of the display.
+e) Thoroughly test your project before submitting. 
+
+Submit your two completed and tested files
+(CS2810-A1.ASM & CS2810-A1.EXE).
+ 
+
+ 
+
+----------------- Program essential help ------------------
+
+ 
+
+The Irvine library contains a number of Procs and Macros that simplify I/O in MASM.
+
+On this assignment you will use three of the Procs in the library:
+- Clrscr - clears the command window. 
+- Gotoxy - positions the cursor at the row and column specified in register sections DH and DL 
+- WriteString - displays the string at the address specified in the EDX register. The string must be 0 terminated.
+
+The sample program shows how to call the Procs.
+Note that with any Procs that require values to be in registers, the registers MUST be set PRIOR to calling the Proc.
+
+The command window is typically 80 columns (characters) wide and 25 rows (lines) deep.
