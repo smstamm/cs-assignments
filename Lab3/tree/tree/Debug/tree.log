@@ -1,0 +1,6 @@
+﻿  tree.cpp
+C:\Development\school\CS1410_OOP\Chapter3\Lab3\tree\tree\tree.cpp(7,6): warning C4101: 'base': unreferenced local variable
+C:\Development\school\CS1410_OOP\Chapter3\Lab3\tree\tree\tree.cpp(10,6): warning C4101: 'coneRight': unreferenced local variable
+C:\Development\school\CS1410_OOP\Chapter3\Lab3\tree\tree\tree.cpp(8,6): warning C4101: 'treeTrunk': unreferenced local variable
+C:\Development\school\CS1410_OOP\Chapter3\Lab3\tree\tree\tree.cpp(9,6): warning C4101: 'coneLeft': unreferenced local variable
+  tree.vcxproj -> C:\Development\school\CS1410_OOP\Chapter3\Lab3\tree\Debug\tree.exe
