@@ -1,0 +1,19 @@
+- background image - common header
+- background position - common header
+- background size - common header
+- background repeat - common header
+- multiple backgrounds on a single element - common header
+- border width, style, and color - try it out mtn wheels image
+- border radius - try it out mtn wheels image
+- border image - as border image on learn page, curbside thai img
+- text shadow - h1s on all pages
+- box shadow - common header
+- linear gradient - as border image on learn page, curbside thai img
+- radial gradient - common footer
+- opacity - common header
+- transform (translate & rotate) - challenge activities story layout images
+- perspective - Challenge activities page
+- filter - common header
+- image map - learn page on curbside thai image
+
+

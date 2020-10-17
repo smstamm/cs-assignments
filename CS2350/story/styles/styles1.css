@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* HTML and Body styles */
+
+html {
+    background-color: darkgoldenrod;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: white;
+    height: 25px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    grid-area: header;
+    margin: 0px -15px;
+    margin-bottom: auto;
+    background-image: url(../images/fight.jpg);
+    background-size: cover;
+    background-position-y: -12px;
+    height: 250px;
+    position: relative;
+}
+
+header h1 {
+    font-size: xxx-large;
+    color: white;
+    margin-top: 15px;
+}
+
+header h2 {
+    color: white;
+    position: relative;
+    bottom: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+
+/* Content Container Styles */
+article p {
+    line-height: 1.5em;
+}
+
+.container {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-areas:
+        'header header header'
+        'p1 p1 aside'
+        'quote quote aside'
+        'title title nunes'
+        'p2 p2 nunes'
+        'p3 p3 nunes';
+    gap: 15px;
+    margin: 0px 25px;
+    justify-content: center;
+}
+
+.container > h3 { grid-area: title; background-color: darkgoldenrod; padding: 10px; }
+.container p:first-of-type { grid-area: p1; }
+.container p:nth-of-type(2) { grid-area: p2; }
+.container p:nth-of-type(3) { grid-area: p3; }
+blockquote { grid-area: quote; }
+aside#background { grid-area: aside; }
+
+.container p:first-of-type::first-letter {
+    font-variant: small-caps;
+    font-size: 2.6em;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+/* Content Blockquote Styles */
+blockquote q {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+blockquote q::before {
+    content: open-quote;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+blockquote q::after {
+    content: close-quote;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+
+/* Content Image Style */
+#nunesImage {
+    grid-area: nunes;
+    width: 100%;
+}
+
+#fightImage {
+    display: none;
+    /* grid-area: fight;
+    width: 100%; */
+}
+
+/* Aside Style */
+aside#background {
+    opacity: .5;
+}
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 25px;
+}

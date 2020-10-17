@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/*
+   Review Assignment
+
+   Tables Style Sheet
+   Author: Stephanie Stamm
+   Date:   Sept 18, 2020
+
+   Filename:         myschedule.css
+
+*/
+
+/* Text Styles */
+#main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#main p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Table Styles */
+table.programs {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Verdana, and sans-serif;
+}
+
+table.programs td,
+table.programs th {
+    border: 1px solid black;
+    vertical-align: middle;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* Table Caption Styles */
+table.programs caption {
+    text-align: center;
+}
+
+
+/* Table Column Styles */
+col.timeColumn {
+    width: 8%;
+    background-color: darkgoldenrod;
+}
+
+col.wDayColumns {
+    width: 11%;
+    background-color: #efefef;
+    /* background-color: rgb(236, 255, 211); */
+}
+
+col.wEndColumns {
+    width: 17%;
+    background-color: lightgray;
+}
+
+
+/* Table Header Styles */
+thead>tr>th:first-of-type {
+    background-color: red;
+}
+
+thead>tr>th:nth-of-type(8) {
+    background-color: black;
+}
+
+thead>tr>th {
+    color: white;
+    background-color: darkgoldenrod;
+}
+
+/* Table Footer Styles */
+tfoot tr td {
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/quicksand_regular.woff) format('woff'),
+        url(../fonts/quicksand_regular.ttf) format('truetype');
+}
+
+/*
+   TSS Typographic Style Sheet
+   Author: Stephanie Stamm
+   Date: Sept 5, 2020  
+   
+   Filename: styles.css
+
+*/
+
+
+
+/* HTML and Body Styles */
+
+html {
+    background-color: #7D3F33;
+}
+
+body {
+    color: #7D3F33;
+    background-color:#FFFAFA;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+article {
+    margin: 25px;
+    perspective: 600px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #337d63;
+}
+
+a:hover,
+a:active {
+    color: #7D3F33;
+}
+
+section#story_layout {
+    display: flex;
+}
+
+#story_layout div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+/* Heading Styles */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Quicksand, Verdana, Geneva, serif;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    font-size: 2.2em;
+    text-shadow: 1px 1px 3px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 35px;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: .75em;
+}
+
+h6 {
+    font-size: .5em;
+}
+
+article#learning_activities h2,
+article#tryit_activities dt {
+    margin-top: 50px;
+}
+
+
+
+/* Blockquote Styles */
+
+blockquote {
+    margin: 20px;
+    quotes: '\201C''\201D';
+    font-family: 'Times New Roman', Times, serif;
+}
+
+blockquote q::before {
+    content: open-quote;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+blockquote q::after {
+    content: close-quote;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+
+/* Navigation Styles */
+
+nav {
+    font-size: 0.8em;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    line-height: 2em;
+    list-style-type: none;
+    font-size: small;
+}
+
+nav > ul > li > a:link,
+nav > ul > li > a:visited {
+    text-decoration: none;
+    color: #337d63;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:active {
+    color: #7D3F33;
+}
+
+
+
+/* List Styles */
+
+article > ul > li {
+    padding: 10px 0px;
+}
+
+article#tryit_activities > dl {
+	padding: 10px 0px;
+}
+
+article#tryit_activities > dl > dd {
+	line-height: 1.75em;
+}
+
+article#tryit_activities > dl > dt {
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+/* Image Styles */
+
+header {
+    background: url(../images/header.jpg) center 100% / cover no-repeat padding-box;
+    height: 250px;
+    box-shadow: inset -8px -8px 12px #7D3F33;
+    opacity: .9;
+    filter: contrast(1.5);
+}
+
+article#learning_activities img,
+article#tryit_activities img,
+article#challenge_activities img {
+    width: 300px;
+}
+
+article#learning_activities img {
+    border-image: linear-gradient(#815e0f, #0fa6c0) 30 / 35px;
+    border-style: solid;
+}
+
+article#tryit_activities img {
+    border-radius: 5%;
+    border: 1px solid #4c4cff;
+}
+
+article#challenge_activities section div:first-child img {
+    transform: translateY(10px) rotateY(5deg);
+}
+
+article#challenge_activities section div:last-child img {
+    transform: translateY(10px) rotateY(-5deg);
+}
+
+section#story_layout img {
+    height: 175px;
+    margin-top: 5px;
+}
+
+/* Footer Styles */
+
+body>footer {
+    color: white;
+    font-size: 0.9em;
+    line-height: 3em;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    background: radial-gradient(#337d63, rgb(40, 33, 23));
+}
+
